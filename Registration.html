@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1 id="head">USER REGISTRATION DEAILS</h1>
+    <h3 class="head3">Please fill the following details and get registered!!</h3>
+    <br />
+    <table >
+        <thread>
+            <tr>
+                <th align="left">details</th>
+                <th align="right">Enter</th>
+            </tr>
+        </thread>
+        <tr>
+            <td> First Name:</td>
+            <td><dialog open="hi">hi</dialog><input type="text" disabled value="cts" title="organization"/></td>
+        </tr>
+        <tr>
+            <td> Last Name:</td>
+            <td><input type="text" required pattern="[a-z]{3,10}"/></td>
+        </tr>
+        <tr>
+            <td>Age:</td>
+            <td><input type="number" max="60" min="20"/></td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td><textarea rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td>
+                <select name="gender">
+
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td>
+                <input type="checkbox" name="state" />Tamilnadu
+                <input type="checkbox" name="state" />Andhra Pradesh
+            </td>
+        </tr>
+        <tr>
+            <td>Country</td>
+            <td>
+                <fieldset>
+                    <legend>country</legend>
+                    <input type="radio" name="country" />India
+                    <input type="radio" name="country" />pakistan
+                </fieldset>
+            </td>
+        </tr>
+    </table>
+    <br/>
+    <input id="button" type="submit" value="Register me"/>
+</body>
+</html>
